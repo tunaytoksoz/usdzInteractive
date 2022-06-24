@@ -13,7 +13,22 @@
 		6657991F28630B6600426106 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6657991D28630B6600426106 /* Main.storyboard */; };
 		6657992128630B6800426106 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6657992028630B6800426106 /* Assets.xcassets */; };
 		6657992428630B6800426106 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6657992228630B6800426106 /* LaunchScreen.storyboard */; };
+		6657993A28630ED100426106 /* AirForce.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 6657993928630ED100426106 /* AirForce.usdz */; };
+		6657993E286316DB00426106 /* way.hdr in Resources */ = {isa = PBXBuildFile; fileRef = 6657993D286316DB00426106 /* way.hdr */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6657993428630BB900426106 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		6657991428630B6600426106 /* usdzInteractive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = usdzInteractive.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -24,6 +39,8 @@
 		6657992028630B6800426106 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6657992328630B6800426106 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6657992528630B6800426106 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6657993928630ED100426106 /* AirForce.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = AirForce.usdz; sourceTree = "<group>"; };
+		6657993D286316DB00426106 /* way.hdr */ = {isa = PBXFileReference; lastKnownFileType = file; name = way.hdr; path = ../../../../../../Downloads/way.hdr; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +77,8 @@
 				6657991928630B6600426106 /* SceneDelegate.swift */,
 				6657991B28630B6600426106 /* ViewController.swift */,
 				6657991D28630B6600426106 /* Main.storyboard */,
+				6657993928630ED100426106 /* AirForce.usdz */,
+				6657993D286316DB00426106 /* way.hdr */,
 				6657992028630B6800426106 /* Assets.xcassets */,
 				6657992228630B6800426106 /* LaunchScreen.storyboard */,
 				6657992528630B6800426106 /* Info.plist */,
@@ -77,6 +96,7 @@
 				6657991028630B6600426106 /* Sources */,
 				6657991128630B6600426106 /* Frameworks */,
 				6657991228630B6600426106 /* Resources */,
+				6657993428630BB900426106 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,6 +145,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6657993A28630ED100426106 /* AirForce.usdz in Resources */,
+				6657993E286316DB00426106 /* way.hdr in Resources */,
 				6657992428630B6800426106 /* LaunchScreen.storyboard in Resources */,
 				6657992128630B6800426106 /* Assets.xcassets in Resources */,
 				6657991F28630B6600426106 /* Main.storyboard in Resources */,
